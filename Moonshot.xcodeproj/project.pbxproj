@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		546A253B2B8BDB8A0044E5DC /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546A253A2B8BDB8A0044E5DC /* MissionView.swift */; };
 		54AA91D22B66FD66003606C9 /* MoonshotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AA91D12B66FD66003606C9 /* MoonshotApp.swift */; };
 		54AA91D42B66FD66003606C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AA91D32B66FD66003606C9 /* ContentView.swift */; };
 		54AA91D62B66FD67003606C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54AA91D52B66FD67003606C9 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		546A253A2B8BDB8A0044E5DC /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
 		54AA91CE2B66FD66003606C9 /* Moonshot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moonshot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54AA91D12B66FD66003606C9 /* MoonshotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonshotApp.swift; sourceTree = "<group>"; };
 		54AA91D32B66FD66003606C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 			children = (
 				54AA91D12B66FD66003606C9 /* MoonshotApp.swift */,
 				54AA91D32B66FD66003606C9 /* ContentView.swift */,
+				546A253A2B8BDB8A0044E5DC /* MissionView.swift */,
 				54AA91E92B6C0EFB003606C9 /* Colors.swift */,
 				54AA91E32B69853E003606C9 /* Astronaut.swift */,
 				54AA91E72B6AE506003606C9 /* Mission.swift */,
@@ -157,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				546A253B2B8BDB8A0044E5DC /* MissionView.swift in Sources */,
 				54AA91D42B66FD66003606C9 /* ContentView.swift in Sources */,
 				54AA91EA2B6C0EFB003606C9 /* Colors.swift in Sources */,
 				54AA91E42B69853E003606C9 /* Astronaut.swift in Sources */,
