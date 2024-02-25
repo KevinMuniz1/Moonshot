@@ -9,8 +9,8 @@ import SwiftUI
 
 
 struct ContentView: View {
-    let astronautDict: [String: Astronaut] = Bundle.main.decodeAstro("astronauts.json")
-    let missionArray: [Mission] = Bundle.main.decodeAstro("missions.json")
+    let astronautDict: [String: Astronaut] = Bundle.main.decode("astronauts.json")
+    let missionArray: [Mission] = Bundle.main.decode("missions.json")
     
     let item = [GridItem(.adaptive(minimum: 150))]
                         
@@ -33,7 +33,7 @@ struct ContentView: View {
                                         .font(.headline)
                                         .foregroundStyle(.white)
                                     
-                                    Text(mission.launchDate ?? "N/A")
+                                    Text(mission.formattedDate ?? "N/A")
                                         .font(.caption)
                                         .foregroundStyle(.gray)
                                         
